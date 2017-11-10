@@ -1,6 +1,7 @@
 package com.example.graemedoran.zoohomework.Enclosure;
 
 import com.example.graemedoran.zoohomework.Animal.Animal;
+import com.example.graemedoran.zoohomework.Animal.Tiger;
 
 import java.util.ArrayList;
 
@@ -16,8 +17,15 @@ public class Enclosure<T extends Animal> {
         this.cats = new ArrayList();
     }
 
-    public void add(T item) {
-        this.cats.add(item);
+    public void canAddAnimalToEnclosure(T cat) {
+        this.cats.add(cat);
     }
 
+    public int getNumberOfAnimals(){
+        return this.cats.size();
+    }
+
+    public void canRemoveAnimalFromEnclosure(T cat) {
+        this.cats.remove(cat);
+    }
 }

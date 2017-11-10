@@ -28,6 +28,10 @@ public abstract class Animal {
     public String getValue() {
         return value;
     }
+
+    public String getCharacteristic(){
+        return value;
+    }
 }
 
 
