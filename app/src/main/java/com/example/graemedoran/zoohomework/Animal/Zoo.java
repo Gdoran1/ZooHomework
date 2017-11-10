@@ -17,11 +17,19 @@ public class Zoo {
     }
 
     public void addEnclosure(Enclosure enclosure) {
-        this.enclosure.add(enclosure);}
+        this.enclosure.add(enclosure);
+    }
 
     public int numberOfEnclosures() {
         return this.enclosure.size();
-
     }
+
+//    public int totalNumberOfAnimals() {
+//        int total = 0;
+//        for (Enclosure enclosure : enclosure) {
+//            total += enclosure.getNumberofAnimals();
+//        }
+
+
 }
 

@@ -8,9 +8,9 @@ public abstract class Animal {
 
     private String Type;
     private String name;
-    private String value;
+    private int value;
 
-    Animal(String Type, String name, String value) {
+    Animal(String Type, String name, int value) {
          this.Type = Type;
          this.name = name;
          this.value = value;
@@ -25,13 +25,11 @@ public abstract class Animal {
         return name;
     }
 
-    public String getValue() {
+    public int getValue() {
         return value;
     }
 
-    public String getCharacteristic(){
-        return value;
-    }
+
 }
 
 

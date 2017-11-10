@@ -28,4 +28,5 @@ public class Enclosure<T extends Animal> {
     public void canRemoveAnimalFromEnclosure(T cat) {
         this.cats.remove(cat);
     }
+
 }

@@ -7,7 +7,14 @@ package com.example.graemedoran.zoohomework.Animal;
 public class Cheetah extends Animal{
 
 
-    public Cheetah(String Type, String name, String value, String characteristics) {
+    private final String characteristics;
+
+    public Cheetah(String Type, String name, int value, String Characteristics) {
         super(Type, name, value);
+        characteristics = Characteristics;
+    }
+
+    public String getCharacteristics() {
+        return characteristics;
     }
 }

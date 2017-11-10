@@ -7,8 +7,15 @@ package com.example.graemedoran.zoohomework.Animal;
 public class Tiger extends Animal {
 
 
-    public Tiger(String Type, String name, String value, String characteristics) {
+    private final String characteristics;
+
+    public Tiger(String Type, String name, int value, String Characteristics) {
         super(Type, name, value);
+        characteristics = Characteristics;
+    }
+
+    public String getCharacteristics() {
+        return characteristics;
     }
 
 

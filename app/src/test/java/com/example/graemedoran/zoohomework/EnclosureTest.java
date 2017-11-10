@@ -25,7 +25,7 @@ public class EnclosureTest {
     @Before
     public void before(){
         enclosure = new Enclosure<Tiger>();
-        tiger = new Tiger("Big Cat", "Tigger", "1500", "Stripes");
+        tiger = new Tiger("Big Cat", "Tigger", 1500, "Stripes");
 //        lion = new Lion("big Cat", "Aslan", "2000", "Mane");
 //        cheetah = new Cheetah(("Big Cat", "Cheeto", "1000", "Spots");
     }
