@@ -9,16 +9,15 @@ import java.util.ArrayList;
  */
 
 public class Enclosure<T extends Animal> {
-    private ArrayList<T> ArrayList;
+    private ArrayList<T> cats;
 
-    private Enclosure arrayList;
 
     public Enclosure(){
-        this.arrayList = new ArrayList;
+        this.cats = new ArrayList();
     }
 
-    public void add(T Item) {
-        this.arrayList.add(Item);
+    public void add(T item) {
+        this.cats.add(item);
     }
 
 }

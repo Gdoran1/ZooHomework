@@ -1,10 +1,11 @@
 package com.example.graemedoran.zoohomework.Animal;
-
+import java.util.ArrayList;
 /**
  * Created by graemedoran on 10/11/2017.
  */
 
 public abstract class Animal {
+
     private String Type;
     private String name;
     private String value;
@@ -28,3 +29,5 @@ public abstract class Animal {
         return value;
     }
 }
+
+

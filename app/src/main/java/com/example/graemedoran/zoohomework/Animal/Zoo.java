@@ -12,10 +12,16 @@ public class Zoo {
 
     ArrayList<Enclosure> enclosure;
 
-    public Enclosure(){
-        this.enclosure = new ArrayList()}
+    public Zoo(){
+        this.enclosure = new ArrayList<>();
+    }
 
-    public void addItem(Enclosure) {
+    public void addEnclosure(Enclosure enclosure) {
         this.enclosure.add(enclosure);}
+
+    public int numberOfEnclosures() {
+        return this.enclosure.size();
+
+    }
 }
 
